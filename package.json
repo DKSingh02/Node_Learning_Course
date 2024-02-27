@@ -1,0 +1,28 @@
+{
+  "name": "node_learning_course",
+  "version": "1.0.0",
+  "description": "This is for beginner learning course for node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKSingh02/Node_Learning_Course.git"
+  },
+  "author": "Diwakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DKSingh02/Node_Learning_Course/issues"
+  },
+  "homepage": "https://github.com/DKSingh02/Node_Learning_Course#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
